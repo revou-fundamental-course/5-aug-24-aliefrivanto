@@ -1,0 +1,48 @@
+form{
+    padding: 12px;
+    background-color: aliceblue;
+    border: 1px solid;
+}
+main{
+    display: flex;
+}
+.header{
+    text-align: center;
+}
+#pertama{
+    padding: 48px;
+    border: 1px solid;
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#kedua{
+    padding: 48px;
+}
+.button{
+    border: 1px solid;
+    
+      
+    border-radius: 4px;
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+footer > p{
+    text-align: center;
+}
+.bg-aqua{
+    background-color: aqua;
+    color: black; 
+}
+.bg-red{
+    background-color: red;
+    color: black; 
+}
