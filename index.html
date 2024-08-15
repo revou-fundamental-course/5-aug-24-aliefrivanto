@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Kalkulator BMI</title>
 </head>
 <body>
@@ -18,7 +17,7 @@
             <article>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis tempora odio praesentium est hic porro, error, fugit repudiandae fugiat, velit eaque ducimus aut totam ex quod ipsa. Nemo, fuga eos.</p>
             </article>
-            <form action="">
+            <form>
                 <div>
                     <h3>Jenis Kelamin</h3>
                     <input type="radio" name="jk" value="lk" id="lk">
@@ -27,19 +26,20 @@
                     <label for="pr">Perempuan</label>
                 </div>
                 <div>
-                    <h3>Berat Badan</h3>
-                    <input type="number" placeholder="Only Number">
+                    <h3>Tinggi Badan</h3>
+                    <input type="number" placeholder="Only Number" id="height">
                 </div>
                 <div>
-                    <h3>Tinggi Badan</h3>
-                    <input type="number" placeholder="Only Number">
+                    <h3>Berat Badan</h3>
+                    <input type="number" placeholder="Only Number" id="weight">
                 </div>
+                
                 <div>
                     <h3>Usia</h3>
                     <input type="number" placeholder="Only Number">
                 </div>
                 <div>
-                    <button class="button bg-aqua">Hitung BMI</button>
+                    <button class="button bg-aqua" >Hitung BMI</button>
                     <button class="button bg-red">Reset</button>
                 </div>
             </form>
@@ -50,6 +50,8 @@
         </aside>
         <aside id="kedua">
             <section>
+                <div id="output"></div>
+                
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum facilis aliquid praesentium in officia esse repellat hic, libero provident tempore. Amet similique molestiae incidunt illo quam, in ab quaerat.</p>
             </section>
         </aside>
@@ -60,4 +62,5 @@
 
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
